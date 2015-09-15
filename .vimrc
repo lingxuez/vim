@@ -2,12 +2,14 @@
 inoremap jk <ESC>
 
 " change the shortcut leading key to space
-let mapleader = "\<Space>"
+" let mapleader = '\<Space>'
 
 filetype plugin indent on
 syntax on
-set encoding=utf-8
+" set encoding=utf-8
 
 " pathogen
 execute pathogen#infect()
 
+" set line number
+set number
